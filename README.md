@@ -15,5 +15,5 @@ $ python -m pip install gunicorn
 ```
 $ python -m pip freeze -l > requirements.txt
 $ echo "web: gunicorn [起動ファイル名]:app --log-file -" > Procfile
-$ echo python-3.x.x > runtime.txt   # バージョン
+$ echo python-3.x.x > runtime.txt   # バージョン herokuのバージョン指定あり
 ```
