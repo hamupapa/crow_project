@@ -1,6 +1,11 @@
 # flaskKOH
 webアプリ作成勉強用
 
+# 仮想環境作成
+```
+$ python3 -m venv venv
+```
+
 # 必要ライブラリ
 ```
 $ python -m pip install Flask
