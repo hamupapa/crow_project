@@ -22,3 +22,7 @@ $ python -m pip freeze -l > requirements.txt
 $ echo "web: gunicorn [起動ファイル名]:app --log-file -" > Procfile
 $ echo python-3.x.x > runtime.txt   # バージョン herokuのバージョン指定あり
 ```
+※起動ファイルがディレクトリ内にある場合は、ディレクトリを移動するためにProcfileを以下のように作成する必要がある
+```
+$ echo "web: gunicorn --chdir [ディレクトリ名] [起動ファイル名]:app --log-file -" > Procfile
+```
