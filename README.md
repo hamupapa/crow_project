@@ -2,6 +2,7 @@
 webアプリ作成勉強用
 
 # 仮想環境作成
+git clone後
 ```
 $ python3 -m venv venv
 ```
