@@ -23,5 +23,39 @@
         <p>値１：{{ values.val1 }}</p>
         <p>値２：{{ values.val2 }}</p>
     </div>
+    <div>
+        <!-- モーダルを開くボタン -->
+        <div class="conatiner">
+            <div class="row my-3">
+                <h1>モーダルを開く</h1>
+            </div>
+            <div class="row mb-5">
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary mb-12" data-toggle="modal" data-target="#testModal">ボタンで開く</button>
+                </div>
+                <div class="col-2">
+                    <a class="btn btn-primary" data-toggle="modal" data-target="#testModal">リンクボタンで開く</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ボタン・リンククリック後に表示される画面の内容 -->
+        <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4><div class="modal-title" id=""myMoodalLabel>削除確認画面</div></h4>
+                    </div>
+                    <div class="modal-body">
+                        <label>データを削除しますか？</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+                        <button type="button" class="btn btn-danger">削除</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
