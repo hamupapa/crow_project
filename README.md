@@ -6,5 +6,5 @@ postgreSQL
 # DB作成
 
 ```
-$ python3 -m venv venv
+$ psql -f mydb.sql
 ```
