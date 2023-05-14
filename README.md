@@ -1,5 +1,7 @@
 # kohKOH
 
+# 環境
+postgreSQL
 
 # DB作成
 
