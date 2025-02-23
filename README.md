@@ -1,10 +1,8 @@
-# kohKOH
+# はじめに
+このリポジトリはC++のWebフレームワークであるcrowの勉強のためのものである。
 
 # 環境
-postgreSQL
+* Ubuntu24.04
+* C++
 
-# DB作成
 
-```
-$ psql -f mydb.sql
-```
